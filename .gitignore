@@ -12,3 +12,4 @@ Interview-Test\Interview-Test.Client\bin
 Interview-Test\Interview-Test.Client\.angular\cache
 node_modules
 .angular/cache
+.vscode
