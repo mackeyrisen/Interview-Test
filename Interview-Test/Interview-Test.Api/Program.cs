@@ -1,5 +1,8 @@
 using Interview_Test.Infrastructure;
 using Interview_Test.Middlewares;
+using Interview_Test.Repositories;
+using Interview_Test.Repositories.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,10 +11,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddControllers();
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+});
 builder.Services.AddSwaggerGen();
 builder.Services.AddMvc(options => options.EnableEndpointRouting = false);
 builder.Services.AddTransient<AuthenMiddleware>();
-var connection = "<your database connection string>";
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+var connection = "Server=interview-test-sql.database.windows.net;Database=interview-test;User Id=admintest;Password=Gtxgtx120130!;TrustServerCertificate=True;";
 builder.Services.AddDbContext<InterviewTestDbContext>(options =>
     {
         options.UseSqlServer(connection,

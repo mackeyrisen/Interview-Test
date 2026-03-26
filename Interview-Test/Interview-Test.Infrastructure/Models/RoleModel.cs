@@ -8,7 +8,7 @@ namespace Interview_Test.Models;
 public class RoleModel
 {
     [Required]
-    [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
     public int RoleId { get; set; }
     [Required]
     [Column(TypeName = "varchar(100)")]

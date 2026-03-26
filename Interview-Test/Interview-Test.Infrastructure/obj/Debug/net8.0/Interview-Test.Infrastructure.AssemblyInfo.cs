@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Interview-Test.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6384f1923635dfcad9887f30c6e0611cea55f09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+951886cd2afd749da03e511ec118ffcbc50e1858")]
 [assembly: System.Reflection.AssemblyProductAttribute("Interview-Test.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Interview-Test.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
