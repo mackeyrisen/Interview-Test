@@ -1,7 +1,7 @@
-Interview-Test\Interview-Test.Api\bin\*
-Interview-Test\Interview-Test.Api\obj\*
-Interview-Test\Interview-Test.GatewayApi\bin\*
-Interview-Test\Interview-Test.GatewayApi\obj\*
+Interview-Test\Interview-Test.Api\bin
+Interview-Test\Interview-Test.Api\obj
+Interview-Test\Interview-Test.GatewayApi\bin
+Interview-Test\Interview-Test.GatewayApi\obj
 Interview-Test\Interview-Test.Infrastructure\bin
 Interview-Test\Interview-Test.Infrastructure\obj
 Interview-Test\Interview-Test.Services\bin
