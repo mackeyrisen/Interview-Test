@@ -13,6 +13,26 @@ public class UserRepository : IUserRepository
         _context = context;
     }
 
+    public IEnumerable<dynamic> GetUsers()
+    {
+        return _context.UserTb
+            .Select(u => new
+            {
+                id = u.Id,
+                userId = u.UserId,
+                username = u.Username,
+                firstName = u.UserProfile.FirstName,
+                lastName = u.UserProfile.LastName,
+                age = u.UserProfile.Age,
+                rolesCount = u.UserRoleMappings.Count(),
+                permissionsCount = u.UserRoleMappings
+                    .SelectMany(urm => urm.Role.Permissions.Select(p => p.Permission))
+                    .Distinct()
+                    .Count()
+            })
+            .ToList<dynamic>();
+    }
+
     public dynamic GetUserById(string id)
     {
         var guid = Guid.Parse(id);

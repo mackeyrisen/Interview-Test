@@ -9,4 +9,4 @@ Interview-Test\Interview-Test.Services\obj
 Interview-Test\Interview-Test.Web\bin
 Interview-Test\Interview-Test.Web\obj
 Interview-Test\Interview-Test.Client\bin
-Interview-Test\Interview-Test.Client\node_modules
+node_modules

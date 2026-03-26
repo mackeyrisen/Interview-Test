@@ -87,3 +87,4 @@ C:\Users\Mackeyrisen\AppData\Local\Temp\api-build\Interview-Test.Api.deps.json
 C:\Users\Mackeyrisen\AppData\Local\Temp\api-build\Interview-Test.Api.runtimeconfig.json
 C:\Users\Mackeyrisen\AppData\Local\Temp\api-build\Interview-Test.Api.dll
 C:\Users\Mackeyrisen\AppData\Local\Temp\api-build\Interview-Test.Api.pdb
+D:\source\Interview-Test\Interview-Test\Interview-Test.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

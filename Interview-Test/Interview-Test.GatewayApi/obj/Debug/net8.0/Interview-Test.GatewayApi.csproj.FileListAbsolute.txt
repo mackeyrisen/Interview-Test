@@ -44,3 +44,12 @@ D:\source\Interview-Test\Interview-Test\Interview-Test.GatewayApi\obj\Debug\net8
 D:\source\Interview-Test\Interview-Test\Interview-Test.GatewayApi\obj\Debug\net8.0\Interview-Test.GatewayApi.pdb
 D:\source\Interview-Test\Interview-Test\Interview-Test.GatewayApi\obj\Debug\net8.0\Interview-Test.GatewayApi.genruntimeconfig.cache
 D:\source\Interview-Test\Interview-Test\Interview-Test.GatewayApi\obj\Debug\net8.0\ref\Interview-Test.GatewayApi.dll
+C:\Users\Mackeyrisen\AppData\Local\Temp\gateway-build\appsettings.json
+C:\Users\Mackeyrisen\AppData\Local\Temp\gateway-build\configurationOcelot.json
+C:\Users\Mackeyrisen\AppData\Local\Temp\gateway-build\Interview-Test.GatewayApi.staticwebassets.endpoints.json
+C:\Users\Mackeyrisen\AppData\Local\Temp\gateway-build\Interview-Test.GatewayApi.exe
+C:\Users\Mackeyrisen\AppData\Local\Temp\gateway-build\Interview-Test.GatewayApi.deps.json
+C:\Users\Mackeyrisen\AppData\Local\Temp\gateway-build\Interview-Test.GatewayApi.runtimeconfig.json
+C:\Users\Mackeyrisen\AppData\Local\Temp\gateway-build\Interview-Test.GatewayApi.dll
+C:\Users\Mackeyrisen\AppData\Local\Temp\gateway-build\Interview-Test.GatewayApi.pdb
+D:\source\Interview-Test\Interview-Test\Interview-Test.GatewayApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

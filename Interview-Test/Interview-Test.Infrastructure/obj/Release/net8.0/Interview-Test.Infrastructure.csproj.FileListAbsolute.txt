@@ -1,0 +1,15 @@
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\bin\Release\net8.0\Interview-Test.Infrastructure.deps.json
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\bin\Release\net8.0\Interview-Test.Infrastructure.runtimeconfig.json
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\bin\Release\net8.0\Interview-Test.Infrastructure.dll
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\bin\Release\net8.0\Interview-Test.Infrastructure.pdb
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\obj\Release\net8.0\Interview-Test.Infrastructure.csproj.AssemblyReference.cache
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\obj\Release\net8.0\Interview-Test.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\obj\Release\net8.0\Interview-Test.Infrastructure.AssemblyInfoInputs.cache
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\obj\Release\net8.0\Interview-Test.Infrastructure.AssemblyInfo.cs
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\obj\Release\net8.0\Interview-Test.Infrastructure.csproj.CoreCompileInputs.cache
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\obj\Release\net8.0\Interview-Test.Infrastructure.sourcelink.json
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\obj\Release\net8.0\Interview-Test.Infrastructure.dll
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\obj\Release\net8.0\refint\Interview-Test.Infrastructure.dll
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\obj\Release\net8.0\Interview-Test.Infrastructure.pdb
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\obj\Release\net8.0\Interview-Test.Infrastructure.genruntimeconfig.cache
+D:\source\Interview-Test\Interview-Test\Interview-Test.Infrastructure\obj\Release\net8.0\ref\Interview-Test.Infrastructure.dll

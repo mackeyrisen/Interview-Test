@@ -1,1 +1,30 @@
-﻿<p>todo</p>
+<h2>Users</h2>
+
+<div style="margin-bottom: 1rem;">
+  <input type="search" [(ngModel)]="searchText" placeholder="Search by id, userId, username, name" style="width: 320px;" />
+</div>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>UserId</th>
+      <th>Username</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>#Roles</th>
+      <th>#Permissions</th>
+      <th>Detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let u of filteredUsers">
+      <td>{{ u.userId }}</td>
+      <td>{{ u.username }}</td>
+      <td>{{ u.firstName }} {{ u.lastName }}</td>
+      <td>{{ u.age ?? '-' }}</td>
+      <td>{{ u.rolesCount }}</td>
+      <td>{{ u.permissionsCount }}</td>
+      <td><a [routerLink]="['/users', u.id]">View</a></td>
+    </tr>
+  </tbody>
+</table>

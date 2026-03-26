@@ -1,1 +1,49 @@
-﻿<p>todo</p>
+<div *ngIf="user">
+  <p><a routerLink="/users">← Back to Users</a></p>
+
+  <h2>User Detail</h2>
+
+  <div style="background:#f9f9f9; border:1px solid #ddd; padding:1rem; margin-bottom:1.5rem; border-radius:4px;">
+    <h3 style="margin-top:0;">{{ user.firstName }} {{ user.lastName }}</h3>
+    <div style="display:flex; gap:2rem; flex-wrap:wrap;">
+      <span><strong>ID:</strong> {{ user.id }}</span>
+      <span><strong>UserId:</strong> {{ user.userId }}</span>
+      <span><strong>Username:</strong> {{ user.username }}</span>
+    </div>
+    <div style="margin-top:.5rem;"><strong>Age:</strong> {{ user.age ?? 'N/A' }}</div>
+  </div>
+
+  <h4>Roles ({{ user.roles.length }})</h4>
+  <table class="table" style="margin-bottom:1.5rem;">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Role ID</th>
+        <th>Role Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let role of user.roles; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ role.roleId }}</td>
+        <td>{{ role.roleName }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>Permissions ({{ user.permissions.length }})</h4>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Permission</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let perm of user.permissions; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ perm }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
